@@ -14,3 +14,5 @@ class CraigslistItem(scrapy.Item):
     date = scrapy.Field()
     title = scrapy.Field()
     url = scrapy.Field()
+    compensation = scrapy.Field()
+    job_type = scrapy.Field()
